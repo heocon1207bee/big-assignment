@@ -1,0 +1,18 @@
+button {
+    border-radius: 10px;
+    outline: none;
+    padding: 7px 14px;
+}
+
+.grayButton {
+    background-color: rgb(208, 208, 208);
+    color: gray;
+    border: 1px solid gray;
+}
+
+.purpleButton {
+    background-color: rgb(124, 49, 145);
+    color: white;
+    border: 1px solid gray;
+}
+

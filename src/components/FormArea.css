@@ -1,0 +1,12 @@
+.Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(134, 125, 212);
+    width: fit-content;
+    min-width: 550px;
+    min-height: 60px;
+    padding: 1.2em;
+    border-radius: 10px;
+}

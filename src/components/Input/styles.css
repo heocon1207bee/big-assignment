@@ -1,0 +1,17 @@
+.formInput {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    margin: 1em;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 0.5em;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}

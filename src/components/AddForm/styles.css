@@ -1,0 +1,13 @@
+.LoginForm {
+    width: 100%;
+}
+
+.formChild {
+    width: 100%;
+}
+
+.buttonForm {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.2em 1em;
+}

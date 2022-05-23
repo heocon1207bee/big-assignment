@@ -1,0 +1,56 @@
+.Render {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    width: 550px;
+    min-height: fit-content;
+    padding: 1.2em;
+    border-radius: 10px;
+    position: relative;
+}
+
+.filterData {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filterData small {
+    color: white;
+}
+
+.filterData select {
+    padding: 20px;
+}
+
+.renderData {
+    width: 100%;
+    max-height: 550px;
+    padding-inline-end: 15px;
+    padding-inline-start: 0px;
+    text-align: center;
+    color: white;
+    overflow-y: scroll;
+}
+
+ul {
+    overflow-y: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+}
+
+ul::-webkit-scrollbar { 
+    width: 0px !important;
+    display: none; 
+}
+
+.scrollAlert {
+    position: absolute;
+    background-color: rgb(25, 25, 25, 0.3);
+    color: rgb(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 10px;
+    right: -14em;
+}

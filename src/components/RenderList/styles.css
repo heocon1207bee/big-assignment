@@ -1,0 +1,63 @@
+.RenderList {
+    width: 549px;
+    background-color: rgb(87, 87, 87);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0px;
+    padding: 0.5em;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.renderDate {
+    flex: 20%;
+    height: fit-content;
+    background-color: rgb(25, 25, 25);
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 5px 0px;
+}
+
+.renderName {
+    flex: 60%;
+    color: white;
+    overflow-y: hidden;
+}
+
+.renderAmount {
+    flex: 20%;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgb(124, 49, 145);
+    padding: 4px;
+    color: white;
+}
+
+.editPanel {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: none;
+}
+
+.RenderList:hover > .editPanel {
+    display: flex;
+}
+
+.editPanel > button {
+    background-color: rgb(25, 25, 25, 0.2);
+    border: 1px solid gray;
+    outline: none;
+    height: 35px;
+}
+
+.editPanel > button:hover {
+    background-color: rgb(254, 116, 116, 0.4);
+}
